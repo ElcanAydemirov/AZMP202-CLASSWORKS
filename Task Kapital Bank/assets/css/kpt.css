@@ -1,0 +1,22 @@
+.nav.top {}
+
+ul {
+    display: flex;
+}
+
+.nav.top ul {}
+
+.nav.top ul li {
+
+    margin: 20px;
+}
+
+header {
+    background-color: #E8ECF1;
+}
+
+.nav.bottom ul li {
+    background-color: #E8ECF1;
+    margin: 20px;
+
+}
