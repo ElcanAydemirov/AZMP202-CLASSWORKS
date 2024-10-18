@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.boxes {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box h1 {
+    z-index: 1;
+}
+
+.box {
+
+
+    color: black;
+
+    position: relative;
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    z-index: 1;
+    text-align: center;
+    margin: 15px 0 20px;
+}
+
+.box button {
+    z-index: 1;
+    background-color: green;
+    border-radius: 20px;
+    padding: 14px 25px;
+    z-index: 1;
+    border: none;
+}
+
+.box p {
+
+    color: #989191;
+}
+
+.box i {
+    z-index: 1;
+    color: green;
+    font-size: 4rem;
+    padding: 30px;
+
+    margin-bottom: 10px;
+
+}
+
+.box .overlay1 {
+
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    top: 0;
+    left: 0;
+    background-color: green;
+}
+
+.box .overlay2 {
+
+    position: absolute;
+    width: 4px;
+    height: 0%;
+    top: 0;
+    right: 0;
+    background-color: green;
+
+}
+
+.box .overlay3 {
+
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: 0;
+    right: 0;
+    background-color: green;
+
+}
+
+.box .overlay4 {
+
+    position: absolute;
+    width: 4px;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+
+}
+
+.box:hover .overlay1 {
+    transition: 0.05s;
+    width: 100%;
+}
+
+.box:hover .overlay2 {
+    transition: 0.05s;
+    height: 100%;
+    transition-delay: 0.05s;
+}
+
+.box:hover .overlay3 {
+    transition: 0.05s;
+    width: 100%;
+    transition-delay: 0.1s;
+}
+
+.box:hover .overlay4 {
+    transition: 0.s;
+    height: 100%;
+    transition-delay: 0.15s;
+}
