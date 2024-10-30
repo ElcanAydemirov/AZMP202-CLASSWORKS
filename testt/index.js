@@ -236,6 +236,103 @@
 
 // for (let index = 0; index < employees.length; index++) {
 //     if (employees[index].salary > 60000) {
-//         console.log(employees[index]);
+//         console.log(employees[index].name);
 //     }
 // }
+
+
+// let eded = 100;
+
+// vurma = 1;
+
+// for (let i = 1; i <= eded; i++) {
+
+//     vurma *= i;
+// }
+// console.log(vurma);
+
+// function faktorial(eded) {
+//     if (eded == 1 || eded == 0) {
+//         return 1;
+//     }
+//     return eded * faktorial(eded - 1);
+// }
+
+// console.log(faktorial(5));
+
+// let soz = "salam o neceseno";
+
+// let  count = 0;
+
+// for (let i = 0; i < soz.length; i++) {
+//     if(soz[i] === "o")
+//     {
+//         count++
+//     }
+
+// }
+// console.log(count);
+
+// const countries = ["azerbaijan", "germany", "norway"];
+
+// for (let i = 0; i < countries.length; i++) {
+//     if (countries[i][0] === "a" && countries[i][countries[i].length - 1] === "n") {
+//         console.log(countries[i]);
+//     }
+// }
+
+// let eded = 456;
+
+// for (let i = 0; i < String(eded).length; i++) {
+//     console.log(String(eded)[i]);
+
+// }
+
+// let number = "5678";
+// let iterator = 0;
+
+
+// console.log(number[0]);
+
+// while (number > 0) {
+
+
+// }
+
+const scores = [78, 89, 78, 56, 73];
+
+// let sum = 0;
+
+// let avg = 0;
+
+// for (let i = 0; i < scores.length; i++) {
+
+//     sum += scores[i];
+
+//     avg = sum / scores.length;
+
+// }
+
+// console.log(avg);
+
+// let largest = scores[0];
+// let smallest = scores[0];
+
+
+// //largest
+// for (let i = 0; i < scores.length; i++) {
+//     if (scores[i] > largest) {
+//         largest = scores[i];
+//     }
+// }
+// console.log(largest);
+
+
+// //smallest
+// for (let i = 0; i < scores.length; i++) {
+//     if (scores[i] < smallest) {
+//         smallest = scores[i];
+//     }
+// }
+
+// console.log(smallest);
