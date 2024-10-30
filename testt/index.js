@@ -132,3 +132,110 @@
 //     default:
 //         console.log("Invalid month");
 // }
+
+// let count = 0;
+
+// for (let index = 0; index < 101; index++) {
+//     if (index % 2 === 0) {
+//         count++
+//     }
+
+// }
+
+// console.log(count);
+
+// let count1 = 0;
+
+// for (let index = 0; index < 101; index++) {
+//     if (index % 2 === 1) {
+//         count1++
+//     }
+
+// }
+
+// console.log(count1);
+
+// let sum = 0;
+
+// for (let index = 0; index < 101; index++) {
+//     if (index % 5 === 0) {
+//         sum += index;
+//     }
+
+// }
+
+// console.log(sum);
+
+// array = [12, 14, 15, 16, 17]
+// let sum = 0;
+
+// for (let index = 0; index < array.length; index++) {
+//     sum += array[index];
+
+// }
+// console.log(sum);
+
+
+
+// for (let index = 0; index < array.length; index++) {
+//     if (index % 2 === 1) {
+//         console.log(array[index]);
+//     }
+// }
+
+// for (let index = 0; index < array.length; index++) {
+//     if (index % 2 === 0) {
+//         console.log(array[index]);
+//     }
+// }
+
+// let largest = array[0];
+// let smallest = array[0]
+
+// for (let i = 0; i < array.length; i++) {
+
+//     if (array[i] > largest) {
+//         largest = array[i];
+//     }
+
+// }
+
+// console.log(largest);
+
+// for (let i = 0; i < array.length; i++) {
+
+//     if (array[i] > largest) {
+//         largest = array[i];
+//     }
+//     if (array[i] < largest) {
+//         smallest = array[i];
+//     }
+
+// }
+// console.log(smallest * largest);
+
+// let verilmis_eded = 17;
+
+// for (let index = 0; index < array.length; index++) {
+//     if (verilmis_eded === array[index]) {
+//         console.log("var");
+//         break
+//     }
+// }
+
+
+// const employees = [
+//     { name: "Jamil", salary: 50000, department: "IT" },
+//     { name: "Jale", salary: 60000, department: "HR" },
+//     { name: "Bayram", salary: 55000, department: "IT" },
+//     { name: "Sahil", salary: 75000, department: "HR" },
+//     { name: "Maryam", salary: 65000, department: "IT" },
+//     { name: "Elnara", salary: 80000, department: "HR" },
+//     { name: "Davud", salary: 70000, department: "IT" },
+// ];
+
+// for (let index = 0; index < employees.length; index++) {
+//     if (employees[index].salary > 60000) {
+//         console.log(employees[index]);
+//     }
+// }
